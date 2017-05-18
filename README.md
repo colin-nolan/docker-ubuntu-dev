@@ -1,2 +1,2 @@
-# docker-ubuntu-dev
-Personalised development version of Docker Ubuntu
+# Docker Ubuntu Dev
+*Personalised development version of Docker Ubuntu.*
