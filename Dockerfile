@@ -8,6 +8,8 @@ RUN apt-get update \
          vim \
          wget \
          curl \
+         ssh \
+         dnsutils \
     && rm -rf /var/lib/apt/lists/*
 
 RUN add-apt-repository ppa:jonathonf/python-3.6 \
