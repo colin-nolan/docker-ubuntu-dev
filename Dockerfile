@@ -10,6 +10,7 @@ RUN apt-get update \
          curl \
          ssh \
          dnsutils \
+         iputils-ping \
     && rm -rf /var/lib/apt/lists/*
 
 RUN add-apt-repository ppa:jonathonf/python-3.6 \
